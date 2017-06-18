@@ -35,7 +35,7 @@ First of all you need a Watson Developer Cloud account and key to access the Alc
 Then a bottle server is to be created on the wifi hotspot or router being used by the Raspberry Pi. The file <b>finalserver.py</b> is used for this purpose. It creates a bottle server to accept string from the Android Application. The string is sent to testAL.py file for getting the emotional response.
 In this file we have other features for the bot to play music, respond to junk texts, respond to hello and bye, go to sleep, turn on or off lights and stop any music being played.
 
-Once we get the emotional response we turn the servo motors in its face so as to create an emotion. The pyhton file called for this purpose is <b>funservo1.py</b>. Every emotion has a set angle of rotation for the motors of face and eyelid as shown in the video. Along with visual representation of emotions on the face, Mino also produces sounds according to the emotion with is played using the ppygame library in <b>audio.py</b>.
+Once we get the emotional response we turn the servo motors in its face so as to create an emotion. The pyhton file called for this purpose is <b>funservo1.py</b>. Every emotion has a set angle of rotation for the motors of face and eyelid as shown in the video. Along with visual representation of emotions on the face, Mino also produces sounds according to the emotion which is played using the ppygame library in <b>audio.py</b>.
 
 We can also move the bot in any direction. For this purpose <b>dc_motor.py</b> is used.
 
